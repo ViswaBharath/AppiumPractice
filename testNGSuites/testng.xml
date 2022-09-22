@@ -6,16 +6,22 @@
 <listener class-name="org.appium.TestUtils.Listeners"/>
 </listeners>
 
-  <test thread-count="5" name="End to end Framework Test">
+ <test thread-count="5" name="End to end Framework Test">
     <classes>
-      <class name="org.appium.eCommerce_tc_4_Hybrid"/>
+      <class name="org.appium.testBS"/>
     </classes>
-  </test> <!-- Test -->
-  
-  <test thread-count="5" name="Error Validations Test">
+  </test>
+
+  <!-- <test thread-count="5" name="End to end Framework Test">
+     <classes>
+       <class name="org.appium.eCommerce_tc_4_Hybrid"/>
+     </classes>
+   </test>  Test -->
+
+  <!-- <test thread-count="5" name="Error Validations Test">
     <classes>
       <class name="org.appium.eCommerce_tc_2"/>
     </classes>
-  </test> <!-- Test -->
+  </test> Test -->
   
 </suite> <!-- Suite -->
